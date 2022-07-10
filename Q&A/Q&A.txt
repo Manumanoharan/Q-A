@@ -1,0 +1,76 @@
+1. What is Semantic tag?
+   ~The semantic element is that it clearly communicated its meaning to both the developer and the browser.
+   ~These elements clearly define its content.
+(e.g)
+   -<article>
+   -<aside>
+   -<details>
+   -<figcaption>
+   -<figure>
+   -<footer>
+   -<header>
+   -<main>
+   -<mark>
+   -<nav>
+   -<section>
+   -<summary>
+   -<time>
+
+2.Position concept in css?
+     ~The position CSS property sets how an element is positioned in a document(top,,right,bottom,left). 
+     ~The position property specifies the type of positioning method used for an element.
+     
+     ~There are five different position values:
+     -static
+     -relative
+     -fixed
+     -absolute
+     -sticky
+
+3.Display inline and inline block?
+   -Inline block
+       ~Its occupied with full width
+       ~They always start in a new line and have top and bottom margins. 
+       ~It does not contain any other elements next to it
+      Examples:
+          -<h1>-<h6>
+          -<div>
+          -<table>
+          -<li>
+          -<ul>
+          -<ol>
+
+     -Inline elements
+        ~ Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline.
+        ~ Inline elements don’t start from a new line and don’t have top and bottom margins as block elements have.
+      Examples:
+         -<a>
+         -<br>
+         -<script>
+         -<input>
+         -<span>
+         -<img>
+
+4.What is the use of doctype HTML?
+     ~Doctype HTML is a declaration that tells the browser what version of HTML the document is written in.
+
+ 5. Purpose of meta tag?
+     ~The <meta> tag defines metadata about an HTML document.
+     ~<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords
+     , author of the document, and viewport settings.
+     ~Metadata will not be displayed on the page, but is machine parsable.
+     ~Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+6. Without using css how can I separate span tag in block
+7.Difference between psuedo class and psuedo elements?
+    Pseudo-classes:
+    ~A pseudo-class is used to define a special state of an element.
+    For example,
+     -Style an element when a user mouses over it
+     -Style visited and unvisited links differently
+     -Style an element when it gets focus
+    Pseudo-Elements:
+    ~A pseudo-element is used to style specified parts of an element.
+    For example,
+     -Style the first letter, or line, of an element
+     -Insert content before, or after, the content of an element
