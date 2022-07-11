@@ -74,3 +74,62 @@
     For example,
      -Style the first letter, or line, of an element
      -Insert content before, or after, the content of an element
+     
+     7.Difference between psuedo class and psuedo elements?
+    Pseudo-classes:
+    ~A pseudo-class is used to define a special state of an element.
+    For example,Canvas
+     -Style an element when a user mouses over it
+     -Style visited and unvisited links differently
+     -Style an element when it gets focus
+    Pseudo-Elements:
+    ~A pseudo-element is used to style specified parts of an element.
+    For example,
+     -Style the first letter, or line, of an element
+     -Insert content before, or after, the content of an element
+
+8.Iteration properties?
+    -animation-iteration-count: number|infinite|initial|inherit-
+   ~The animation-iteration-count property in CSS is used to specify the number of times the animation will be repeated.
+
+9. Use of svg and canvas?
+  SVG:(Scalable Vector Graphics)
+    ~SVG is used to define vector-based graphics for the Web
+    ~Every element and every attribute in SVG files can be animated
+    ~SVG defines the graphics in XML format
+    CANVAS:
+    ~It is used to draw graphics, on the fly, via scripting.
+    ~The <canvas> element is only a container for graphics
+    ~Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+10.Media Queries?
+   ~Its define different style rules for different media types.
+   ~Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, 
+    tablets, and mobile phones.
+    -Media queries can be used to check many things, such as:
+     width and height of the viewport,
+     width and height of the device,
+     orientation,
+     resolution.
+
+11.Orientation?
+  ~The orientation CSS media feature can be used to test the orientation of the viewport (or the page box, for paged media).
+
+12.Settimeout and setinterval difference?
+    -setTimeout:
+   ~The setTimeout() method calls a function after a number of milliseconds.
+    -setInterval:
+   ~The setInterval() method calls a function at specified intervals (in milliseconds).
+   ~The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.
+
+13.box model?
+   ~Box model is about design and layout.
+   ~The CSS box model is essentially a box that wraps around every HTML element.
+   ~It consists of: margins, borders, padding, and the actual content.
+
+14.Attribute?
+   ~Its provide additional information about HTML elements.
+   ~Attributes usually come in name/value pairs like: name="value".
+
+15.Use of default (reset) css?
+   ~every browser has its own default ‘user agent’ stylesheet, that it uses to make unstyled websites appear more legible.
